@@ -1,0 +1,35 @@
+.category {
+    width: 100%;
+    padding: 1rem 0; 
+    box-sizing: border-box;
+    text-align: left; 
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.category-title {
+    width: clamp(20rem, 35vw, 30rem);
+    height: 5rem; 
+    margin-top: 2.5rem; 
+    margin-left: 2rem; 
+    background-color: var(--color-primary); 
+    color: var(--color-white);
+    font-weight: bold;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(1.5rem, 2.5vw, 2.2rem); 
+    text-align: start;
+}
+
+.card__container {
+    width: 100%;
+    padding: 1.5rem; 
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-over
+

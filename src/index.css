@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-bg);
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-inov-gestao: #8A2BE2;
+  --color-error: #DC143C;
+  --color-bg: #0c0c43;
+  --color-bg-edit: #8a8aeb;
+  --color-backend: #FF6347;
+  --color-frontend: #FFD700;
+  --color-black: #040122;
+  --color-brillo: #FF4500;
+  --color-button-shadow: #2F4F4F;
+  --color-banner: #4682B4;
+  --color-light-gray: #D3D3D3;
+  --color-white: #f9f9f9;
+  --color-white-smoke: #E0EEE0;
+  --color-blue: #4169E1;
+  --color-blue-light: #87CEFA;
+  --color-dark-gray-border: #696969;
+  
+}
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-container {
+  background-color: var(--color-banner);
+}
+
+.content-container {
+  flex-grow: 1;
+  background-color: var(--color-bg);
+  color: var(--color-white-smoke);
+}
+
+.footer-container {
+  background-color: var(--color-dark-gray-border);
+}
